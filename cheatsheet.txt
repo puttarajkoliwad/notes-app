@@ -1,0 +1,20 @@
+01) Local modules: All the NPM modules that are installed locally in the project directory.
+    Command: npm i <pkg_name>@<version>
+    eg.: npm i chalk@4.2.1
+
+02) Global modules: All the modules that are going to be installed globally and are not specific to the project. has the '-g' flag.
+    Command: npm i <pkg_name>@<version> -g
+    eg.: npm i nodemon@1.18.5 -g
+
+
+======FILE SYSTEM======
+
+    **Command line arguments:
+    ========================
+        01) process.argv: This will fetch the array of command line arguments. 'argv' here stand for 'argument vector'.
+    
+    'fs' module:
+    ============
+    01) fs.writeFileSync('filename_with_relative_path', 'filecontent')
+    02) fs.readFileSync('filename_with_relative_path').
+    
